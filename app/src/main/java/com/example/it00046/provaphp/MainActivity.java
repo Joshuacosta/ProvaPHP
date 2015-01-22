@@ -45,7 +45,7 @@ public class MainActivity extends ActionBarActivity {
                 //Implement event handling
                 //Toast.makeText(getApplicationContext(),"Hola", Toast.LENGTH_LONG).show();
                 pb.setVisibility(View.VISIBLE);
-                new MyAsyncTask().execute("un php");
+                new MyAsyncTask().execute("un altre php");
             }
         });
     }
@@ -80,6 +80,7 @@ public class MainActivity extends ActionBarActivity {
             // TODO Auto-generated method stub
             //postData(params[0]);
             return postData(params[0]);
+
         }
 
         protected void onPostExecute(Integer result){
